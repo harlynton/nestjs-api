@@ -20,6 +20,7 @@ model User {
 
   firstName String?
   lastName String?
+  address String?
 }
 model Bookmark {
   id Int @id @default(autoincrement())
@@ -29,4 +30,5 @@ model Bookmark {
   title String
   description String?
   link String
+  price String?
 }
